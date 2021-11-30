@@ -11,19 +11,19 @@ import com.algaworks.spring.notificacao.NivelDeUrgencia;
 import com.algaworks.spring.notificacao.Notificador;
 import com.algaworks.spring.notificacao.TipoDeNotificador;
 
-@Component
+//@Component
 public class AtivacaoClienteService {
 
 	@TipoDeNotificador(NivelDeUrgencia.SEM_URGENCIA)
 	@Autowired
 	private Notificador notificador;
 	
-	@PostConstruct
+	//@PostConstruct
 	public void init() {
 		System.out.println("INIT");
 	}
 	
-	@PreDestroy
+	//@PreDestroy
 	public void destroy() {
 		System.out.println("DESTROY");
 	}
