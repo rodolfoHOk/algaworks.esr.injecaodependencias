@@ -1,10 +1,11 @@
 package com.algaworks.spring.notificacao;
 
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Component;
 
 import com.algaworks.spring.modelo.Cliente;
 
-//@Primary
+@Profile("prod")
 @TipoDeNotificador(NivelDeUrgencia.SEM_URGENCIA)
 @Component
 public class NotificadorEmail implements Notificador{
