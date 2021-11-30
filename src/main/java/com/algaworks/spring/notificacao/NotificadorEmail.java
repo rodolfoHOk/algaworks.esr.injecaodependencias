@@ -4,7 +4,7 @@ import org.springframework.stereotype.Component;
 
 import com.algaworks.spring.modelo.Cliente;
 
-//@Component
+@Component
 public class NotificadorEmail implements Notificador{
 	
 //	private boolean caixaAlta;
