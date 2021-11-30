@@ -1,16 +1,17 @@
 package com.algaworks.spring.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 import com.algaworks.spring.modelo.Cliente;
+import com.algaworks.spring.notificacao.NivelDeUrgencia;
 import com.algaworks.spring.notificacao.Notificador;
+import com.algaworks.spring.notificacao.TipoDeNotificador;
 
 @Component
 public class AtivacaoClienteService {
 
-	@Qualifier("urgente")
+	@TipoDeNotificador(NivelDeUrgencia.SEM_URGENCIA)
 	@Autowired
 	private Notificador notificador;
 	
