@@ -6,10 +6,10 @@ import org.springframework.context.annotation.Configuration;
 import com.algaworks.spring.notificacao.Notificador;
 import com.algaworks.spring.service.AtivacaoClienteService;
 
-@Configuration
+//@Configuration
 public class ServiceConfig {
 	@Bean
 	public AtivacaoClienteService ativacaoClienteService(Notificador notificador) {
-		return new AtivacaoClienteService(notificador);
+		return new AtivacaoClienteService();
 	}
 }

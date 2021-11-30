@@ -11,15 +11,15 @@ public class AlgaConfig {
 
 	@Bean
 	public NotificadorEmail notificadorEmail() {
-		NotificadorEmail notificador = new NotificadorEmail("smtp.algamail.com.br");
-		notificador.setCaixaAlta(true);
+//		NotificadorEmail notificador = new NotificadorEmail("smtp.algamail.com.br");
+//		notificador.setCaixaAlta(true);
 		
-		return notificador;
+		return new NotificadorEmail();
 	}
 	
 	@Bean
 	public AtivacaoClienteService ativacaoClienteService() {
-		return new AtivacaoClienteService(notificadorEmail());
+		return new AtivacaoClienteService();
 	}
 	
 }
