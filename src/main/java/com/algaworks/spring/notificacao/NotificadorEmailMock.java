@@ -1,13 +1,10 @@
 package com.algaworks.spring.notificacao;
 
-import org.springframework.context.annotation.Profile;
-import org.springframework.stereotype.Component;
-
 import com.algaworks.spring.modelo.Cliente;
 
-@Profile("dev")
+//@Profile("dev")
 @TipoDeNotificador(NivelDeUrgencia.SEM_URGENCIA)
-@Component
+//@Component
 public class NotificadorEmailMock implements Notificador{
 	
 	@Override
