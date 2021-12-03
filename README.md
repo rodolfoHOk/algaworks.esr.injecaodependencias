@@ -4,43 +4,43 @@
 
 ### Spring e Injeção de Dependências
 
-Criando um projeto Spring Boot com Spring InitializrCriando um controller com Spring MVC
+- Criando um projeto Spring Boot com Spring InitializrCriando um controller com Spring MVC
 
-Restart mais rápido da aplicação com DevTools
+- Restart mais rápido da aplicação com DevTools
 
-Definindo beans com @Component
+- Definindo beans com @Component
 
-Injetando dependências (beans Spring) via construtor
+- Injetando dependências (beans Spring) via construtor
 
-Usando @Configuration e @Bean para definir beans
+- Usando @Configuration e @Bean para definir beans
 
-Conhecendo os pontos de injeção e a anotação @Autowired
+- Conhecendo os pontos de injeção e a anotação @Autowired
 
-Dependência opcional com @Autowired
+- Dependência opcional com @Autowired
 
-Ambiguidade de beans e injeção de lista de beans
+- Ambiguidade de beans e injeção de lista de beans
 
-Desambiguação de beans com @Primary
+- Desambiguação de beans com @Primary
 
-Desambiguação de beans com @Qualifier
+- Desambiguação de beans com @Qualifier
 
-Desambiguação de beans com anotação customizada
+- Desambiguação de beans com anotação customizada
 
-Mudando o comportamento da aplicação com Spring Profiles @Profile
+- Mudando o comportamento da aplicação com Spring Profiles @Profile
 
-Criando métodos de callback do ciclo de vida dos beans @PostConstruct @PreDestroy
+- Criando métodos de callback do ciclo de vida dos beans @PostConstruct @PreDestroy
 
-Criando métodos de callback do ciclo de vida dos beans @Bean(initMethod, destroyMethod)
+- Criando métodos de callback do ciclo de vida dos beans @Bean(initMethod, destroyMethod)
 
-Publicando e consumindo eventos customizados ApplicationEventPublisher @EventListener
+- Publicando e consumindo eventos customizados ApplicationEventPublisher @EventListener
 
-Configurando projetos Spring Boot com o application.properties
+- Configurando projetos Spring Boot com o application.properties
 
-Criando e acessando propriedades customizadas com @Value
+- Criando e acessando propriedades customizadas com @Value
 
-Acessando propriedades com @ConfigurationProperties
+- Acessando propriedades com @ConfigurationProperties
 
-Alterando a configuração do projeto dependendo do ambiente (com Spring Profiles)
+- Alterando a configuração do projeto dependendo do ambiente (com Spring Profiles)
 
 ## Outros repositórios do curso
 
